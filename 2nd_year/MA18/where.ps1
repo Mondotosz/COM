@@ -1,0 +1,1 @@
+Get-ChildItem -Recurse -File | ? {$_.Length -le 1KB}
